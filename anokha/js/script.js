@@ -122,6 +122,13 @@ function subbut(){
 				document.getElementById("phoneno").focus();
 				flag=1;
     			}
+		else{
+                        if (!document.hello.terms.checked)
+                        {
+                                alert("Agree to the terms and conditions");
+                                flag=1; 
+                        } 
+                    }
 		}
 		
 	}
